@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+
+}
+
+.main-login {
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-direita {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-direita>h1 {
+    color: #77ffc0;
+}
+
+.div-esquerda {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #2f2841;
+    border-radius: 20px;
+    padding: 30px 35px;
+    box-shadow: 10px 10px 40px #00000056;
+}
+
+.card-login>h1 {
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-field>input {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    background-color: #272430;
+    color: #f0ffff;
+    font-size: 12pt;
+    outline: none;
+    box-shadow: 10px 10px 40px #00000056;
+}
